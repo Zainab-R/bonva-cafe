@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bonva — Not Your Average Café | Model Town, Multan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <nav class="wrap">
+    <a href="#top" class="logo">Bon<em>va</em></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="#order" class="nav-cta">Order Now</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="top">
+  <div class="hero-bg" data-img-bg="storefront"></div>
+  <div class="wrap hero-content">
+    <p class="eyebrow reveal">Model Town · Emirates Mall · Multan</p>
+    <h1 class="reveal">Bonva</h1>
+    <p class="tagline reveal">Not your average café.</p>
+    <p class="sub reveal">Croissants, quesadillas, tacos and mini burgers, in a cozy corner of Emirates Mall with warm bulb light, a small book nook, and seating that spills outside. Open every day, noon to 2AM.</p>
+    <div class="hero-ctas reveal">
+      <a href="#order" class="btn btn-primary">Order Now</a>
+      <a href="#menu" class="btn btn-ghost">See the Menu</a>
+      <a href="#visit" class="btn btn-ghost">Get Directions</a>
+    </div>
+    <div class="stat-strip reveal">
+      <div class="stat"><div class="num" data-count="4.6" data-suffix="★">0</div><div class="lbl">Foodpanda rating</div></div>
+      <div class="stat"><div class="num" data-count="2974" data-suffix="+">0</div><div class="lbl">Instagram followers</div></div>
+      <div class="stat"><div class="num">12PM–2AM</div><div class="lbl">Open every day</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-strip">
+  <div class="divider-track" id="dividerTrack">
+    <span>
+      <span>Iced Tiramisu Latte</span>
+      <span>House Special Tacos</span>
+      <span>Paratha Burger</span>
+      <span>Creamy Chicken Croissant</span>
+      <span>Kunafa Pistachio Brownie</span>
+      <span>Mexican Salsa Fries</span>
+      <span>Mango Sago</span>
+    </span>
+  </div>
+</div>
+
+<section style="padding-top:70px; padding-bottom:0;">
+  <div class="wrap">
+    <div class="mango-banner reveal">
+      <div>
+        <p class="eyebrow">Limited time only</p>
+        <h2 style="font-size:clamp(28px,4vw,40px); margin-top:10px;">The Mango Menu is here.</h2>
+        <p style="opacity:0.65; margin-top:14px; font-size:15px; line-height:1.7; max-width:400px;">Mango Sago, Mango Tangy Fries, and Mango Sticky Rice — seasonal, fresh, and only around for a little while.</p>
+        <button onclick="selectMenuTab('Seasonal — Mango Menu'); document.getElementById('menu').scrollIntoView({behavior:'smooth'});" class="btn btn-primary" style="margin-top:22px; border:none;">View Mango Menu</button>
+      </div>
+      <div class="mango-photos">
+        <img data-img="mango_sago" alt="Mango Sago">
+        <img data-img="mango_fries" alt="Mango Tangy Fries">
+        <img data-img="mango_rice" alt="Mango Sticky Rice">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="bulb-glow" style="top:10%; left:5%;"></div>
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">The idea</p>
+      <h2>Bonjour, Multan.</h2>
+      <p>Bonva showed up in Model Town with a simple idea: café culture doesn't need a plane ticket. Flaky croissants, loaded sandwiches, Dubai-style mini burgers, a full coffee bar — and a room built for lingering, not just eating.</p>
+      <p>Regulars mention the <strong>cozy, warmly lit space</strong> before anything else — a small book collection on the wall, edison-bulb sconces, and staff who'll ask how you take your coffee before they make it.</p>
+      <p>The menu runs deep — a dozen-plus coffees hot and iced, teas, smoothies, mains, and a rotating seasonal drop (mango season, we see you) — priced reasonably, because a café open from noon to 2AM has to work for study sessions and late-night catch-ups in equal measure.</p>
+      <div class="gallery-motif" aria-hidden="true">
+        <div class="frame"></div><div class="frame"></div><div class="frame"></div><div class="frame"></div>
+      </div>
+    </div>
+    <div class="interior-frame reveal">
+      <img data-img="interior" alt="Bonva Café interior — warm bulb lighting and framed prints on the wall">
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Straight from the kitchen</p>
+      <h2>What it actually looks like.</h2>
+    </div>
+    <div class="gallery-grid reveal">
+      <a href="#" data-img-href="full_spread_board" target="_blank" rel="noopener" class="wide tall"><img data-img="full_spread_board" alt="Full spread: croissant, sliders, fries and pull-apart buns" loading="lazy"></a>
+      <a href="#" data-img-href="bonjour_coffee_croissant" target="_blank" rel="noopener" class="tall"><img data-img="bonjour_coffee_croissant" alt="Coffee and croissant, bonjour" loading="lazy"></a>
+      <a href="#" data-img-href="pepperoni_quesserolies" target="_blank" rel="noopener"><img data-img="pepperoni_quesserolies" alt="Pepperoni pizza quesserolies" loading="lazy"></a>
+      <a href="#" data-img-href="choc_strawberry_croissant" target="_blank" rel="noopener"><img data-img="choc_strawberry_croissant" alt="Chocolate ganache croissant with strawberries" loading="lazy"></a>
+      <a href="#" data-img-href="creamy_house_tacos" target="_blank" rel="noopener" class="wide"><img data-img="creamy_house_tacos" alt="House special tacos" loading="lazy"></a>
+      <a href="#" data-img-href="spread_drinks_candlelit" target="_blank" rel="noopener"><img data-img="spread_drinks_candlelit" alt="Candlelit spread with fresh juices" loading="lazy"></a>
+      <a href="#" data-img-href="korean_cream_cheese_buns" target="_blank" rel="noopener"><img data-img="korean_cream_cheese_buns" alt="Korean pull-apart cream cheese buns" loading="lazy"></a>
+      <a href="#" data-img-href="cinnamon_french_toast" target="_blank" rel="noopener"><img data-img="cinnamon_french_toast" alt="Cinnamon french toast" loading="lazy"></a>
+      <a href="#" data-img-href="chilli_cheese_croissant" target="_blank" rel="noopener"><img data-img="chilli_cheese_croissant" alt="Chilli cheese croissant" loading="lazy"></a>
+      <a href="#" data-img-href="pepperoni_pizza_quesadilla" target="_blank" rel="noopener"><img data-img="pepperoni_pizza_quesadilla" alt="Pepperoni pizza quesadilla" loading="lazy"></a>
+      <a href="#" data-img-href="latte_croissant_tiramisu" target="_blank" rel="noopener"><img data-img="latte_croissant_tiramisu" alt="Latte, croissant sandwich and iced tiramisu latte" loading="lazy"></a>
+      <a href="#" data-img-href="wrap_box" target="_blank" rel="noopener"><img data-img="wrap_box" alt="Wrap, boxed up" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
+<section id="menu" style="background:var(--wood);">
+  <div class="bulb-glow" style="bottom:0%; right:5%;"></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Coffee, mains & seasonal drops</p>
+      <h2>Order like a regular.</h2>
+      <p>Every item and price straight off Bonva's own menu — tap a category to browse.</p>
+    </div>
+    <div class="tabs reveal" id="tabs"></div>
+    <div class="menu-grid reveal" id="menuGrid"></div>
+  </div>
+</section>
+
+<section id="order">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Skip the line</p>
+      <h2>Order now.</h2>
+      <p>Two ways to get Bonva — delivered through Foodpanda, or call the café directly.</p>
+    </div>
+    <div class="order-grid reveal">
+      <div class="order-card">
+        <div class="ic">🛵</div>
+        <h3>Order delivery on Foodpanda</h3>
+        <p>Full menu, live prices, and free delivery on your first order.</p>
+        <a href="https://www.foodpanda.pk/restaurant/k3r8/bonva-cafe-k3r8" target="_blank" rel="noopener" class="btn btn-primary">Open Foodpanda</a>
+      </div>
+      <div class="order-card">
+        <div class="ic">📞</div>
+        <h3>Call to order directly</h3>
+        <p>Ring the café for pickup, dine-in bookings, or questions about the menu.</p>
+        <a href="tel:+923248413195" class="btn btn-ghost">Call +92 324 8413195</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Word on the street</p>
+      <h2>What Multan's saying.</h2>
+      <p>Pulled from real Google and Foodpanda reviews.</p>
+    </div>
+    <div class="reviews-viewport reveal">
+      <div class="reviews-track" id="reviewsTrack"></div>
+    </div>
+  </div>
+</section>
+
+<section id="visit" style="background:var(--wood);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Find us</p>
+      <h2>Come through.</h2>
+      <p>Tucked into Emirates Mall, Model Town — easy to find, easy to stay a while.</p>
+    </div>
+    <div class="info-grid reveal">
+      <div class="info-side">
+        <div class="info-row">
+          <span class="ic">📍</span>
+          <div><div class="lbl">Address</div><div class="val">15, Emirates Mall, Shalimar Colony,<br>Model Town, Multan, Pakistan</div></div>
+        </div>
+        <div class="info-row">
+          <span class="ic">🕐</span>
+          <div><div class="lbl">Hours</div><div class="val">Every day, 12:00 PM – 2:00 AM</div></div>
+        </div>
+        <div class="info-row">
+          <span class="ic">📞</span>
+          <div><div class="lbl">Phone</div><div class="val">+92 324 8413195</div></div>
+        </div>
+        <div class="info-row">
+          <span class="ic">🪑</span>
+          <div><div class="lbl">Seating</div><div class="val">Indoor and outdoor seating, with a small book corner for lingering.</div></div>
+        </div>
+        <div style="display:flex; gap:12px; margin-top:8px; flex-wrap:wrap;">
+          <a href="https://www.foodpanda.pk/restaurant/k3r8/bonva-cafe-k3r8" target="_blank" rel="noopener" class="btn btn-primary">Order Delivery</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=30.2416036,71.5019166" target="_blank" rel="noopener" class="btn btn-ghost">Get Directions</a>
+        </div>
+      </div>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=30.2416036,71.5019166&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bonva Café exact location, Emirates Mall, Model Town, Multan"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="logo">Bon<em style="color:var(--amber);">va</em></div>
+    <p style="opacity:0.5; font-size:13.5px; margin-top:8px;">Not your average café · Multan</p>
+    <div class="social-row">
+      <a href="https://www.instagram.com/bonva_cafe/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <a href="https://www.foodpanda.pk/restaurant/k3r8/bonva-cafe-k3r8" target="_blank" rel="noopener" aria-label="Foodpanda">FP</a>
+    </div>
+    <p class="fine">© 2026 Bonva Café, Emirates Mall, Model Town, Multan. Menu and pricing subject to change.</p>
+  </div>
+</footer>
+
+<script src="images.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
